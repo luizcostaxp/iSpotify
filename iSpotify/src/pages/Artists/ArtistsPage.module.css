@@ -1,0 +1,42 @@
+.artistsPage
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+}
+
+.cardsContainer
+{
+    margin-top:1rem;
+    flex-grow: 1;
+    align-self: center;
+    padding: 4rem;
+}
+
+
+.firstCardsRow, .secondCardsRow
+{
+    display: flex;
+    justify-content: flex-start;
+    gap: 3rem;
+}
+
+.firstCardsRow
+{
+    margin-bottom: 3rem;
+}
+
+.title
+{
+    color: white;
+    font-size: 2.1rem;
+    width: 12.6rem;
+    height: 3.9rem;
+    margin-top: 20px;
+    font-weight: bold;
+}

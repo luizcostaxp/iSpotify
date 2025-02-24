@@ -1,0 +1,49 @@
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	min-height: 100vh;
+	min-width: fit-content;
+	width: 18%;
+	background-color: black;
+	font-size: 1.5rem;
+	font-weight: 700;
+	text-align: center;
+	color: white;
+	padding: 1rem;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+}
+
+.linkStyle {
+	color: #969696;
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.brandText{
+	font-size: 30px;
+	margin-top: 45px;
+	line-height: 48.41px;
+}
+
+.logoutButton {
+	margin-top: auto;
+	margin-bottom: 30px;
+	background-color: #000000;
+	color: #969696;
+	border: none;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 15px;
+	font-weight:800;
+	cursor: pointer;	
+}
+
+.material-icons {
+	font-size: 15px; 
+	margin-right: 10px; 
+  }
