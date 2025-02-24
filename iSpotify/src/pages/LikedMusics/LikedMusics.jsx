@@ -3,7 +3,7 @@ import Sidebar from "../../components/Sidebar/Sidebar";
 import LikedTracks from "../../components/LikedTracks/LikedTracks";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import styles from "./LikedMusics.module.css";
-import img from "../../assets/likedsongs.png"; // Altere para o nome correto da sua imagem
+import img from "../../assets/likedsongs.png"; 
 
 export default function LikedMusics() {
     const { userId } = useParams();
